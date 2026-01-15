@@ -1,0 +1,160 @@
+body {
+  background-color: #000; 
+  color: #e0e0e0;           
+}
+
+section {
+  background-color: transparent;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 700;
+  color: white; 
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(55, 0, 255); 
+}
+
+.navbar-nav .btn-info {
+  font-weight: 700;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.navbar-nav .btn-info:hover {
+  background-color: rgb(55, 0, 255); 
+  border-color: cyan;
+}
+
+.text-cyan {
+  color: cyan;
+  font-weight: 900; 
+}
+
+.social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: cyan;
+  border-radius: 50%;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+  filter: brightness(0.85);
+}
+
+.portfolio-container {
+  scroll-snap-type: x mandatory;
+}
+
+.portfolio-container .card {
+  scroll-snap-align: start;
+}
+
+.text-cyan {
+  color: cyan;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon-img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  transition: transform 0.2s, filter 0.2s;
+  cursor: pointer;
+}
+
+.icon-img:hover {
+  transform: scale(1.1);
+  filter: brightness(0.85);
+}
+
+.badge-gray {
+  background-color: #6c757d; 
+  color: white;
+}
+
+.badge-gray:hover {
+  background-color: cyan;
+  color: black;
+}
+
+.card {
+  background-color: #111;  
+  color: #e0e0e0;
+  border: 1px solid #222;
+}
+
+.contact-box {
+  max-width: 500px;
+  padding: 40px;
+  border: 1px solid #555;
+}
+
+.custom-input,
+.custom-textarea {
+  background-color: transparent;
+  border: 1px solid #777;
+  color: #fff;
+  padding: 12px;
+}
+
+.custom-input::placeholder,
+.custom-textarea::placeholder {
+  color: #aaa;
+}
+
+.custom-input:focus,
+.custom-textarea:focus {
+  border-color: cyan;
+  box-shadow: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+.send-btn {
+  background-color: #6c757d;
+  color: cyan;
+  border: none;
+  padding: 12px;
+}
+
+.send-btn:hover {
+  background-color: cyan;
+  color: #000;
+}
+
+.footer-icons {
+  display: flex;             
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-icon {
+  width: 32px;
+  height: 32px;
+  background-color: cyan;
+  border-radius: 50%;
+  padding: 6px;            
+  transition: transform 0.3s;
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
